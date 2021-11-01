@@ -1,3 +1,10 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
 body {
     font-family: 'Open Sans',
         sans-serif;
@@ -173,9 +180,8 @@ a {
 /* #region blog */
 
 .blog__content {
-    margin-top:95px;
-    margin-bottom: 100px;
-    height: 520px;
+    padding-top:95px;
+    padding-bottom: 100px;
 }
 
 .blog__title {
@@ -199,6 +205,7 @@ a {
 }
 
 .blog__cards {
+    margin-top: 35px;
     display: flex;
     justify-content: space-between;
 }
@@ -215,12 +222,14 @@ a {
     font-size: 19px;
     font-weight: 400;
     text-transform: uppercase;
+    padding: 20px 0;
 }
 .blog__card-text{
     font-size:14px;
     font-weight:300;
     color: #6A6A6A;
-    padding-bottom:20px;
+    padding-bottom: 40px;
+    padding-right: 30px;
 }
 
 .blog__card-btn{
@@ -234,6 +243,80 @@ a {
     border-radius: 20px;
 }
 
+/* #endregion */
+
+/* #region services */
+
+.service{
+    background:#28272C;
+}
+.service__content{
+    padding-top: 60px;
+    padding-bottom:100px;
+}
+
+.service__title{
+    width: 100%;
+    text-align: center;
+    font-size: 35px;
+    text-transform: uppercase;
+    font-weight: bold;
+    color:white;
+}
+
+.service__title::after,
+.service__title::before {
+    content: "";
+    width: 50px;
+    height: 5px;
+    background: red;
+    display: inline-block;
+    margin: 10px 10px;
+    border-radius: 7px;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+
+.service__cards{
+    padding-top: 75px;
+    display:flex;
+    justify-content:space-between;
+}
+
+.service__card{
+    width: 235px;
+    text-align: center;
+}
+
+.service__card-image{
+    width: 170px;
+    height:170px;
+}
+
+.service__card-title{
+    font-size: 19px;
+    font-weight: 400;
+    color:white;
+    padding:10px 0;
+    text-transform: uppercase;
+}
+
+.service__card-text{
+    font-size: 14px;
+    font-weight: 400;
+    color:#B2B2B2;
+    padding-bottom: 25px;
+}
+
+.service__card-btn{
+    text-align:center;
+    text-transform: uppercase;
+    font-size:14px;
+    font-weight:bold;
+    padding: 10px 30px;
+    background-color:red;
+    color:white;
+    border-radius: 20px;
+}
 
 
 /* #endregion */
