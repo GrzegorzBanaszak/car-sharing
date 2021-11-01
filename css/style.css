@@ -368,6 +368,7 @@ a {
     border:1px solid #D1D1D1;
     border-radius: 10px; 
     font-size:16px;
+    transition:border-color 0.3s;
 }
 .contact__form input[type=text]::placeholder{
    color:#B2B2B2;
@@ -385,6 +386,7 @@ a {
     border-radius: 10px;
     padding:12px 8px;
     resize: none;
+    transition:border-color 0.3s;
 }
 .contact__form textarea::placeholder{
    color:#B2B2B2;
