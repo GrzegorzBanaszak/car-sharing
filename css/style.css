@@ -1,4 +1,4 @@
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -180,7 +180,7 @@ a {
 /* #region blog */
 
 .blog__content {
-    padding-top:95px;
+    padding-top: 95px;
     padding-bottom: 100px;
 }
 
@@ -213,33 +213,35 @@ a {
 .blog__card {
     width: 350px;
 }
-.blog__card-image{
+
+.blog__card-image {
     width: 100%;
 }
 
-.blog__card-title{
+.blog__card-title {
     color: #6A6A6A;
     font-size: 19px;
     font-weight: 400;
     text-transform: uppercase;
     padding: 20px 0;
 }
-.blog__card-text{
-    font-size:14px;
-    font-weight:300;
+
+.blog__card-text {
+    font-size: 14px;
+    font-weight: 300;
     color: #6A6A6A;
     padding-bottom: 40px;
     padding-right: 30px;
 }
 
-.blog__card-btn{
-    text-align:center;
+.blog__card-btn {
+    text-align: center;
     text-transform: uppercase;
-    font-size:14px;
-    font-weight:bold;
+    font-size: 14px;
+    font-weight: bold;
     padding: 10px 30px;
-    background-color:red;
-    color:white;
+    background-color: red;
+    color: white;
     border-radius: 20px;
 }
 
@@ -247,21 +249,22 @@ a {
 
 /* #region services */
 
-.service{
-    background:#28272C;
-}
-.service__content{
-    padding-top: 60px;
-    padding-bottom:100px;
+.service {
+    background: #28272C;
 }
 
-.service__title{
+.service__content {
+    padding-top: 60px;
+    padding-bottom: 100px;
+}
+
+.service__title {
     width: 100%;
     text-align: center;
     font-size: 35px;
     text-transform: uppercase;
     font-weight: bold;
-    color:white;
+    color: white;
 }
 
 .service__title::after,
@@ -276,45 +279,45 @@ a {
     box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
 }
 
-.service__cards{
+.service__cards {
     padding-top: 75px;
-    display:flex;
-    justify-content:space-between;
+    display: flex;
+    justify-content: space-between;
 }
 
-.service__card{
+.service__card {
     width: 235px;
     text-align: center;
 }
 
-.service__card-image{
+.service__card-image {
     width: 170px;
-    height:170px;
+    height: 170px;
 }
 
-.service__card-title{
+.service__card-title {
     font-size: 19px;
     font-weight: 400;
-    color:white;
-    padding:10px 0;
+    color: white;
+    padding: 10px 0;
     text-transform: uppercase;
 }
 
-.service__card-text{
+.service__card-text {
     font-size: 14px;
     font-weight: 400;
-    color:#B2B2B2;
+    color: #B2B2B2;
     padding-bottom: 25px;
 }
 
-.service__card-btn{
-    text-align:center;
+.service__card-btn {
+    text-align: center;
     text-transform: uppercase;
-    font-size:14px;
-    font-weight:bold;
+    font-size: 14px;
+    font-weight: bold;
     padding: 10px 30px;
-    background-color:red;
-    color:white;
+    background-color: red;
+    color: white;
     border-radius: 20px;
 }
 
@@ -324,7 +327,7 @@ a {
 
 /* #region contact */
 
-.contact__content{
+.contact__content {
     padding-top: 65px;
     padding-bottom: 65px;
 }
@@ -350,62 +353,65 @@ a {
     box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
 }
 
-.contact__form{
+.contact__form {
     padding-top: 35px;
     display: grid;
-    gap:15px;
-    grid-template-columns:repeat(2,1fr);
+    gap: 15px;
+    grid-template-columns: repeat(2, 1fr);
 }
 
-.contact__form img{
+.contact__form img {
     width: 100%;
 }
 
 .contact__form input[type=text] {
-    display:block;
-    padding:12px 8px;
+    display: block;
+    padding: 12px 8px;
     width: 100%;
-    border:1px solid #D1D1D1;
-    border-radius: 10px; 
-    font-size:16px;
-    transition:border-color 0.3s;
+    border: 1px solid #D1D1D1;
+    border-radius: 10px;
+    font-size: 16px;
+    transition: border-color 0.3s;
 }
-.contact__form input[type=text]::placeholder{
-   color:#B2B2B2;
+
+.contact__form input[type=text]::placeholder {
+    color: #B2B2B2;
 }
-.contact__form input[type=text]:nth-of-type(2){
+
+.contact__form input[type=text]:nth-of-type(2) {
     margin: 20px 0;
 }
 
-.contact__form textarea{
+.contact__form textarea {
     display: block;
-    font-size:16px;
+    font-size: 16px;
     width: 100%;
     height: 140px;
-    border:1px solid #D1D1D1;
+    border: 1px solid #D1D1D1;
     border-radius: 10px;
-    padding:12px 8px;
+    padding: 12px 8px;
     resize: none;
-    transition:border-color 0.3s;
+    transition: border-color 0.3s;
 }
-.contact__form textarea::placeholder{
-   color:#B2B2B2;
-   font-size:16px;
+
+.contact__form textarea::placeholder {
+    color: #B2B2B2;
+    font-size: 16px;
     font-family: 'Open Sans',
-    sans-serif;
+        sans-serif;
 }
 
 .contact__form input[type=text]:focus,
-.contact__form textarea:focus{
+.contact__form textarea:focus {
     outline: none;
-    border-color:red;
+    border-color: red;
 }
 
-.contact__accept{
+.contact__accept {
     padding: 20px 0;
 }
 
-.contact__form input[type=radio]{
+.contact__form input[type=radio] {
     float: left;
     border: 1px solid #D1D1D1;
     border-radius: 5px;
@@ -414,32 +420,95 @@ a {
     -webkit-appearance: none;
 }
 
-.contact__form input[type=radio]:checked{
-    background:url("../images/Icon\ Check.svg") no-repeat center center;
+.contact__form input[type=radio]:checked {
+    background: url("../images/Icon\ Check.svg") no-repeat center center;
 
 }
 
-.contact__form p{
-    display:inline-block;
-    padding-left:10px;
+.contact__form p {
+    display: inline-block;
+    padding-left: 10px;
     width: 90%;
-    font-size:10px;
-    color:#B2B2B2;
+    font-size: 10px;
+    color: #B2B2B2;
     font-weight: 300;
 }
 
-.contact__form button[type=submit]{
+.contact__form button[type=submit] {
     float: right;
     text-transform: uppercase;
-    font-size:14px;
+    font-size: 14px;
     font-weight: bold;
     padding: 11px 52px;
     border: 1px solid red;
-    color:red;
-    background-color:white;
+    color: red;
+    background-color: white;
     border-radius: 25px;
 }
-.contact__form button[type=submit]:hover{
+
+.contact__form button[type=submit]:hover {
     cursor: pointer;
 }
+
 /* #endregion */
+
+footer {
+    background: #28272C;
+    padding: 40px 0;
+}
+
+.footer__logo{
+    padding-bottom: 20px;
+}
+
+.footer__logo svg {
+    display: inline-block;
+}
+
+.footer__logo p {
+    display: inline-block;
+    font-size: 26px;
+    color: white;
+    text-transform: uppercase;
+    letter-spacing: 1.3px;
+    font-weight: bold;
+}
+
+.footer__logo span {
+    color: red;
+}
+
+.footer__content{
+    display: grid;
+    grid-template-columns: 35% 65%;
+}
+
+
+.footer__nav {
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer__nav li{
+    padding:2px 0;
+}
+
+.footer__nav a{
+    color: white;
+    font-size: 14px;
+    font-weight: bold;
+    text-transform: uppercase;
+    transition: color 0.3s ease-in-out;
+}
+
+.footer__nav a:hover{
+    color: red;
+}
+.footer__copy{
+    display: flex;
+    justify-content:flex-end;
+    align-items: flex-end;
+    font-size:14px;
+    color: #D1D1D1;
+    font-weight: 300;
+}
