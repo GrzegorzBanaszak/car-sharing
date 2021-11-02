@@ -77,8 +77,6 @@ a {
     position: absolute;
     top: 0;
     left: 0;
-    display: flex;
-    align-items: center;
 }
 
 .top-nav .container {
@@ -99,7 +97,7 @@ a {
 }
 
 .top-nav__title {
-    font-size: 35px;
+    font-size: 2.25rem;
     text-transform: uppercase;
     margin-left: 5px;
     font-weight: 800;
@@ -185,6 +183,12 @@ a {
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+@media screen and (max-width: 650px) {
+    .top-nav .container{
+        flex-wrap: wrap;
+    }
 }
 
 /* #region blog */
